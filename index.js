@@ -153,11 +153,11 @@ function btnGo() {
 ///// プレビュー表示
 function check() {
  // チェックボックス取得
- const spCheckbox = document.getElementById('sp');
+ const spCheckbox = byId('sp');
  // クラスpreviewを取得
- const previewStyle = document.getElementById("preview");
+ const previewStyle = byId("preview");
  // クラスtypeとその幅を取得
- const type = document.getElementById('type');
+ const type = byId('type');
  const typeWidth = type.querySelector("#window-innerWidth");
 
  // チェックONならプレビューを表示
